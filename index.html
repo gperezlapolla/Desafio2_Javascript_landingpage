@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:rgb(229, 229, 242);
+        }
+
+        .grid-item {
+            transition: transform 0.3s, box-shadow 0.3s;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    <title>Desafío2_Javascript_landingpage</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Landing Page Desafío2 (parte 1,2 y 3) Javascript</h1>
+        <div class="row">
+            <div class="col-md-6 col-lg-3 grid-item" onclick="window.location.href = 'https://gperezlapolla.github.io/Desafio2_Javascript_parte1/';">
+                <div class="card">
+                    <img src="./Assets/Img/lajumnet1.jpg" class="card-img-top" alt="Faro La Jumnet">
+                    <div class="card-body">
+                        <h5 class="card-title">Agregar y quitar borde rojo</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item" onclick="window.location.href = 'https://gperezlapolla.github.io/Desafio2_Javascript_parte2/';">
+                <div class="card">
+                    <img src="./Assets/Img/Pedir stickers.jpg" class="card-img-top" alt="Web Serpientes venenosas">
+                    <div class="card-body">
+                        <h5 class="card-title">Pedir stickers</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item" onclick="window.location.href = 'https://gperezlapolla.github.io/Desafio2_Javascript_parte3/';">
+                <div class="card">
+                    <img src="./Assets/Img/Validar contraseña.jpg" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Ingresa Password</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 grid-item" onclick="window.location.href = 'https://github.com/gperezlapolla?tab=repositories';">
+                <div class="card">
+                    <img src="./Assets/Img/Acceso directo a repositorios Github.jpg" class="card-img-top" alt="Imagen 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Acceso directo a repositorios Github</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
